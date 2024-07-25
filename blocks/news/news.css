@@ -3,17 +3,27 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
-  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+  justify-content: center;
 }
 
 .news > ul > li {
-  border: 1px solid var(--dark-color);
-  background-color: var(--background-color);
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  max-width: 800px;
+  /* width: 100%; */
+  margin: auto;
+  padding: 20px;
 }
 
 .news .news-card-body {
   margin: 16px;
+  padding: 20px;
+  /* background-color: red; */
 }
 
 .news .news-card-image {
@@ -28,4 +38,5 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  padding: 0;
 }
