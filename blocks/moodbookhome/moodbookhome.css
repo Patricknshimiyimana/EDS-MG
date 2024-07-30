@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif; /* Choose a font similar to the one in the image */
+}
+
+.moodbookhome .container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    background-color: #b49880; /* Match the background color */
+}
+
+.moodbookhome .left-column {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Match the text color */
+}
+
+.moodbookhome .right-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white; /* Match the background color for the logo */
+    padding: 20px;
+}
+
+.moodbookhome .right-column::before {
+    content: "";
+    display: block;
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    background-color: #b49880; /* Match the background color */
+    margin-bottom: 20px; /* Adjust the spacing from the bottom */
+}
+
+.moodbookhome h1 {
+    font-size: 4rem; /* Adjust font size as needed */
+    letter-spacing: 1rem; /* Adjust letter spacing to match the image */
+}
+
+.moodbookhome h2 {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    letter-spacing: 0.2rem; /* Adjust letter spacing to match the image */
+}
+
+.moodbookhomeh3 {
+    font-size: 2rem; /* Adjust font size as needed */
+    letter-spacing: 0.2rem; /* Adjust letter spacing to match the image */
+    margin-top: 2rem; /* Adjust margin as needed */
+}

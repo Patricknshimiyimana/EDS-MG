@@ -1,0 +1,87 @@
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+} */
+
+.moodbooksection {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.moodbooksection .container {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid #b2d235; */
+    width: 100%;
+}
+
+.left-column {
+    /* flex: 1; */
+    width: 80%;
+}
+
+.left-column img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-column {
+    /* flex: 1; */
+    position: relative;
+    padding: 80px 20px;
+    /* background: #cce0f9; */
+    width: 20%;
+}
+
+.relaxed {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    justify-content: end;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    /* add double borders red and black */
+    border: 10px solid #b2d235;
+
+}
+
+.inspiration-image {
+    width: 500px;
+    height: 500px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: -8rem;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    margin: 20px 0;
+    text-align: end;
+    padding: 10px 40px;
+    margin-top: -15rem;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.color-options {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.color-options img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
