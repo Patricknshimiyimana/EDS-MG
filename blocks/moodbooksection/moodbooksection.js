@@ -6,7 +6,6 @@ export default function decorate(block) {
     const pictureElement = block.querySelector(':scope > div > div > picture')
     
     const containerDiv = sectionDiv.children[0];
-    // console.log("container div", containerDiv)
 
     const rightColumnDiv = containerDiv.children[1].children[0];
     const imgEl = containerDiv.children[1].children[0].querySelector('img');
