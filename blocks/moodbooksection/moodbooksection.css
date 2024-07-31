@@ -7,6 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 10px;
+    background: #444343;
 }
 
 .moodbooksection .container {
@@ -14,6 +15,7 @@
     flex-direction: row;
     /* border: 2px solid #b2d235; */
     width: 100%;
+    height: 80vh;
 }
 
 .left-column {
@@ -30,7 +32,7 @@
     /* flex: 1; */
     position: relative;
     padding: 80px 20px;
-    /* background: #cce0f9; */
+    background: white;
     width: 20%;
 }
 
@@ -43,13 +45,13 @@
 }
 
 .square {
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    margin-left: 10px;
-    /* add double borders red and black */
-    border: 10px solid #b2d235;
-
+    content: "";
+    display: block;
+    width: 15px; /* Adjust size as needed */
+    height: 15px; /* Adjust size as needed */
+    background-color: #b2d235; /* Match the background color */
+    margin-bottom: 20px; /* Adjust the spacing from the bottom */
+    border: 2rem double white;
 }
 
 .inspiration-image {

@@ -5,7 +5,7 @@
     background-color: #fff;
 } */
 
-.newshead {
+.breadcrumb {
     display: flex;
     align-items: center;
     padding: 20px;
@@ -14,17 +14,17 @@
     margin: 0px 0px 40px auto;
 }
 
-.newshead div {
+.breadcrumb div {
     display: flex;
     align-items: center;
 }
 
-.newshead div div:first-child {
+.breadcrumb div div:first-child {
     font-size: 1.5em;
     margin-right: 10px;
 }
 
-.newshead div div:nth-child(2) {
+.breadcrumb div div:nth-child(2) {
     font-size: 1em;
     font-weight: bold;
 }

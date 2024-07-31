@@ -1,10 +1,7 @@
 export default function decorate(block) {
     
     const sectionDiv = block.querySelector(':scope > div').parentNode;
-    console.log("main element", sectionDiv.parentNode);
-
     const pictureElement = block.querySelector(':scope > div > div > picture')
-    
     const containerDiv = sectionDiv.children[0];
 
     const rightColumnDiv = containerDiv.children[1].children[0];
@@ -12,14 +9,11 @@ export default function decorate(block) {
     imgEl.classList.add('inspiration-image')
 
     const leftColumnDiv = sectionDiv.children[1];
-    
     const subtitleText = leftColumnDiv.children[0].children[0]
     const titleText = leftColumnDiv.children[0].children[1];
-
     const description = leftColumnDiv.children[1];
 
     const colorsDiv = sectionDiv.children[2];
-    
     const colorImages = colorsDiv?.querySelector('div > p')
     
     const content = `<div class="container">
@@ -30,7 +24,7 @@ export default function decorate(block) {
                 <h1>${subtitleText.innerHTML}</h1>
             </div>
             <div class="right-column">
-                <div class="relaxed">${titleText.innerHTML} <div class="square"></div></div>
+                <div class="relaxed">${titleText.innerHTML} <div class="square" style="background: ${titleText.innerHTML.toLowerCase() == "glamour" ? "pink" : ""}"></div></div>
                 <picture>
                    ${rightColumnDiv.innerHTML}
                 </picture>
