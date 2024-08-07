@@ -5,5 +5,5 @@ indices:
     target: /query-index.json
   catalogue:
     include:
-      - /catalogue/**/index
+      - /catalogue/*/index
     target: /catalogue/query-index.json
