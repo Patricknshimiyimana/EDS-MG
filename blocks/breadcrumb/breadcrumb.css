@@ -1,0 +1,23 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: #7B5741;
+    border-bottom: 1px solid #7B5741;
+    margin: 0 0 40px auto;
+}
+
+.breadcrumb div {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb div div:first-child {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.breadcrumb div div:nth-child(2) {
+    font-size: 1em;
+    font-weight: bold;
+}

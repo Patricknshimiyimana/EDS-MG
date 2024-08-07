@@ -20,11 +20,21 @@ import {
  */
 function buildHeroBlock(main) {
   const h1 = main.querySelector('h1');
+  const h2 = main.querySelector('h2');
+  const h3 = main.querySelector('h3');
   const picture = main.querySelector('picture');
   // eslint-disable-next-line no-bitwise
   if (h1 && picture && (h1.compareDocumentPosition(picture) & Node.DOCUMENT_POSITION_PRECEDING)) {
     const section = document.createElement('div');
-    section.append(buildBlock('hero', { elems: [picture, h1] }));
+    let elems;
+    if (h3) {
+      elems = [picture, h2, h1, h3];
+    } else if (h2) {
+      elems = [picture, h2, h1];
+    } else {
+      elems = [picture, h1];
+    }
+    section.append(buildBlock('hero', { elems }));
     main.prepend(section);
   }
 }
