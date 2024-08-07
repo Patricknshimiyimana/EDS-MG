@@ -21,9 +21,9 @@
   --text-color: #1e1e1e;
 
   /* fonts */
-  --body-font-family: Raleway, sans-serif, roboto-fallback;
+  --body-font-family: raleway, sans-serif, roboto-fallback;
   --heading-font-family: var(--body-font-family);
-  --fixed-font-family: Raleway, sans-serif, 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --fixed-font-family: raleway, sans-serif, 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
   /* body sizes */
   --body-font-size-m: 16px;

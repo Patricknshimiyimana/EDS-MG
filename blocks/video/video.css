@@ -1,13 +1,10 @@
 .video {
   height: 100vh;
   text-align: center;
-  /* max-width: 1200px; */
   margin: 32px auto;
-  /* width: 100%; */
 }
 
 .video[data-embed-is-loaded="false"]:not(.placeholder) {
-  /* reserve an approximate space to avoid extensive layout shifts */
   aspect-ratio: 16 / 9;
 }
 

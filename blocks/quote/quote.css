@@ -1,14 +1,5 @@
-/* body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
-} */
-
 .quote {
-    font-family: Bodoni Moda, sans-serif;
+    font-family: "Bodoni Moda", sans-serif;
     display: flex;
     align-items: center;
     font-size: 2.4em;
@@ -29,7 +20,7 @@
     left: 5px;
     top: -10px;
     color: #000;
-    line-height: 0.6; /* Adjust to align with text */
+    line-height: 0.6;
 }
 
 .quote div {

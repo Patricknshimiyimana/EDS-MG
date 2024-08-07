@@ -1,17 +1,10 @@
-/* body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-} */
-
 .breadcrumb {
     display: flex;
     align-items: center;
     padding: 20px;
-    color: #7B5741; /* Adjusted to match the color */
-    border-bottom: 1px solid #7B5741; /* Line under the text */
-    margin: 0px 0px 40px auto;
+    color: #7B5741;
+    border-bottom: 1px solid #7B5741;
+    margin: 0 0 40px auto;
 }
 
 .breadcrumb div {

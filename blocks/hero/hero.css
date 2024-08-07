@@ -10,25 +10,25 @@ main .hero-container {
 
 .hero {
   position: relative;
-  padding: 0px 32px;
-  height: 100vh; /* Make hero cover the whole first page */
+  padding: 0 32px;
+  height: 100vh;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  text-align: center; /* Center text */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   color: white;
 }
 
 .hero > div > div {
   display: flex;
-  flex-direction: column; /* Stack children vertically */
-  align-items: center; /* Center children horizontally */
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero h1, .hero h2, .hero h3 {
   max-width: 800px;
-  margin: 0; /* Remove margin to avoid any unwanted offset */
-  font-family: Bodoni Moda, sans-serif;
+  margin: 0;
+  font-family: "Bodoni Moda", sans-serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
   padding: 20px;
