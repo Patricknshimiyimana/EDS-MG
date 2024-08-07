@@ -1,0 +1,10 @@
+indices:
+  default: &default
+    include:
+      - /**
+    target: /query-index.json
+  catalogue: &catalogue
+    <<: *default
+    include:
+      - /catalogue/**/index
+    target: /catalogue/query-index.json
