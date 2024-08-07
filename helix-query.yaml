@@ -3,8 +3,7 @@ indices:
     include:
       - /**
     target: /query-index.json
-  catalogue: &catalogue
-    <<: *default
+  catalogue:
     include:
       - /catalogue/**/index
     target: /catalogue/query-index.json
